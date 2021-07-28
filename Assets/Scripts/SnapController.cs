@@ -19,7 +19,7 @@ public class SnapController : MonoBehaviour
     private void OnDragEnded(DragObject draggable)
     {
         float currentDistance = Vector3.Distance(draggable.transform.position, snapPoint.position);
-        Debug.Log("currentDistance " + currentDistance);
+        //Debug.Log("currentDistance " + currentDistance);
 
         if (currentDistance <= snapRange)
         {
