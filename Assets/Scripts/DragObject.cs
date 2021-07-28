@@ -5,22 +5,51 @@ using UnityEngine;
 
 public class DragObject : MonoBehaviour
 {
-    public float yOffsetForDraggedObject = 1;
+    public delegate void DragEndedDelegate(DragObject draggableObject);
+    public DragEndedDelegate dragEndedCallback;
 
+    public float yOffsetForDraggedObject = 1;
+    Vector3 objectDragStartPosition;
+    Quaternion objectDragStartRotation;
     Plane plane;
     float distance;
+    bool isDragged = false;
 
     private void Start()
     {
         plane = new Plane(Vector3.up, new Vector3(0, yOffsetForDraggedObject, 0));
     }
 
-    void OnMouseDrag()
+    private void OnMouseDown()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (plane.Raycast(ray, out distance))
+        isDragged = true;
+        objectDragStartPosition = transform.position;
+        //Debug.Log("objectDragStartPosition" + objectDragStartPosition);
+        objectDragStartRotation = transform.rotation;
+        //Debug.Log("objectDragStartRotation" + objectDragStartRotation);
+    }
+
+    private void OnMouseDrag()
+    {
+        if (isDragged)
         {
-            transform.position = ray.GetPoint(distance);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (plane.Raycast(ray, out distance))
+            {
+                transform.position = ray.GetPoint(distance);
+            }
         }
+    }
+
+    private void OnMouseUp()
+    {
+        isDragged = false;
+        dragEndedCallback(this);
+    }
+
+    public void ReturnToStartPosition()
+    {
+        transform.position = objectDragStartPosition;
+        transform.rotation = objectDragStartRotation;
     }
 }
