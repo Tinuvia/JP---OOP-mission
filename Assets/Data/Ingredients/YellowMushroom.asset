@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62e33cf9a001cb479f2d1feaa7a2b31, type: 3}
+  m_Name: YellowMushroom
+  m_EditorClassIdentifier: 
+  Effects:
+  - {fileID: 11400000, guid: 7017e9faeba1bbe449edea63e19d8999, type: 2}
+  - {fileID: 11400000, guid: c1c5715466072354d92ce94bbd214613, type: 2}
+  Name: Fly Cap
+  Description: An fairly easy to identify Agaric with its blushing stem and flesh.
+  PickupSound: {fileID: 8300000, guid: f9025189a46c96d4c9dacd94dbbd5894, type: 3}
+  DropSound: {fileID: 8300000, guid: b4dd3254086666f468efbf3885605796, type: 3}
+  ItemPrefab: {fileID: 5440707293445505367, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}

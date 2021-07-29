@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62e33cf9a001cb479f2d1feaa7a2b31, type: 3}
+  m_Name: BrownMushroom
+  m_EditorClassIdentifier: 
+  Effects:
+  - {fileID: 11400000, guid: c1c5715466072354d92ce94bbd214613, type: 2}
+  - {fileID: 11400000, guid: cdeb207138b0d384e86ca7616685c071, type: 2}
+  Name: Worm's Spore
+  Description: A great mushroom with a rich, strong taste and as it can grow so large
+    and in rings, usually provides quite a feast.
+  PickupSound: {fileID: 8300000, guid: 00698312d691b1e42aa859e108782254, type: 3}
+  DropSound: {fileID: 8300000, guid: c83101617f37f504fb877dd1853cb211, type: 3}
+  ItemPrefab: {fileID: 5565557067069903873, guid: c6cf29db7fbb5fe4ebf7dee33f359e32, type: 3}

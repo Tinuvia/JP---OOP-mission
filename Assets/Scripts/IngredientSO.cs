@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Ingredient", menuName = "Alchemy/Ingredient")]
-public class IngredientSO : ScriptableObject
+public class IngredientSO : ItemSO
 {
-    public BaseEffect PrimaryEffect;
-    public BaseEffect SecondaryEffect;
-    public string Name;
+    public string description;
+    public EffectSO primaryEffect;
+    public EffectSO secondaryEffect;
 }
