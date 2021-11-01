@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Red
   m_EditorClassIdentifier: 
   effectColor: 1
+  color: {fileID: 11400000, guid: 026de6f83239f77438a3a06bee2f29bc, type: 2}
   effectName: 1
   affectedCharacterStats: Health

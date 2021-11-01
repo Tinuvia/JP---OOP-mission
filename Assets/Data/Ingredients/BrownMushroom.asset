@@ -15,6 +15,7 @@ MonoBehaviour:
   Effects:
   - {fileID: 11400000, guid: c1c5715466072354d92ce94bbd214613, type: 2}
   - {fileID: 11400000, guid: cdeb207138b0d384e86ca7616685c071, type: 2}
+  color: {fileID: 11400000, guid: c9f900e15e1532b4bb9c26711b21c7ed, type: 2}
   Name: Worm's Spore
   Description: A great mushroom with a rich, strong taste and as it can grow so large
     and in rings, usually provides quite a feast.

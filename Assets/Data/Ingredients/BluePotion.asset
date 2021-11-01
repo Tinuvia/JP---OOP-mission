@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Effects:
   - {fileID: 11400000, guid: c1c5715466072354d92ce94bbd214613, type: 2}
+  color: {fileID: 11400000, guid: b7e1ca830dc9e4845aed555fca9f0339, type: 2}
   Name: Magic Potion
   Description: 
   PickupSound: {fileID: 8300000, guid: d76bc3e712d9fa743b313200f66a47f0, type: 3}

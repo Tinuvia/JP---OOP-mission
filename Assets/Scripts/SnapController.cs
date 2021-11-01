@@ -24,7 +24,14 @@ public class SnapController : MonoBehaviour
         if (currentDistance <= snapRange)
         {
             draggable.transform.position = snapPoint.position;
-        } else
+            // call Brewing script with draggable to check if cooking list has room and if no duplicates
+            // if OnItemAdded returns true, StartBrewing()
+            // 
+            // through the GameEvents script
+            // GameEvent.current.OnItemAdded(draggable);
+
+        }
+        else
             draggable.ReturnToStartPosition();
     }
 }

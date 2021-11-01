@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Blue
   m_EditorClassIdentifier: 
   effectColor: 0
+  color: {fileID: 11400000, guid: b7e1ca830dc9e4845aed555fca9f0339, type: 2}
   effectName: 0
   affectedCharacterStats: Mana

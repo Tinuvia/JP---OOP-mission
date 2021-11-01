@@ -6,14 +6,16 @@ using UnityEngine;
 public class ItemSO : ScriptableObject
 {
     [SerializeField] EffectSO[] Effects;
+    [SerializeField] ColorSO color;
     [SerializeField] string Name;
     [SerializeField] string Description;
     [SerializeField] AudioClip PickupSound;
     [SerializeField] AudioClip DropSound;
     [SerializeField] GameObject ItemPrefab;
 
-    ParticleSystem particleSystem;
+    ParticleSystem particleSystem; 
 
+    // ENCAPSULATION add getters (and setters?) for the variables (Name, Description, Color)
 
     public virtual Color GetCloudColor()
     {

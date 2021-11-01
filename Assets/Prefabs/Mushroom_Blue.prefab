@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1740695158943434770}
   - component: {fileID: 7301423220482527275}
   - component: {fileID: 2662434596518636386}
+  - component: {fileID: 2662434596104196464}
   m_Layer: 0
   m_Name: Mushroom_Blue
   m_TagString: Untagged
@@ -27,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740695158945634002}
-  m_LocalRotation: {x: 0.4186698, y: -0.59690434, z: -0.41095108, w: 0.54730254}
+  m_LocalRotation: {x: 0.41866848, y: -0.59690523, z: -0.41094926, w: 0.547304}
   m_LocalPosition: {x: 2.1953228, y: 0.31559503, z: -0.23084092}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.852, y: -3.705, z: -71.83}
+  m_LocalEulerAnglesHint: {x: -1.852, y: -93.623, z: -71.83}
 --- !u!33 &1740695158942436050
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -110,3 +111,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yOffsetForDraggedObject: 1
+--- !u!114 &2662434596104196464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740695158945634002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45c8a6992886954bbf1566d6f39878b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 0}

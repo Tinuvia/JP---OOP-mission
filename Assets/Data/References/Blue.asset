@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0da1a084175646d468390ce92648762e, type: 3}
-  m_Name: Yellow
+  m_Script: {fileID: 11500000, guid: 24a2b8585fa955045aaa2408952f0355, type: 3}
+  m_Name: Blue
   m_EditorClassIdentifier: 
-  effectColor: 2
-  color: {fileID: 11400000, guid: cb4333375a74b8b4d96350649b4fb311, type: 2}
-  effectName: 2
-  affectedCharacterStats: Stamina
+  color: {r: 0.24510503, g: 0.32342815, b: 0.6415094, a: 0}

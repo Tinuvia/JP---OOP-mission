@@ -15,8 +15,9 @@ MonoBehaviour:
   Effects:
   - {fileID: 11400000, guid: 7017e9faeba1bbe449edea63e19d8999, type: 2}
   - {fileID: 11400000, guid: c1c5715466072354d92ce94bbd214613, type: 2}
+  color: {fileID: 11400000, guid: 95f722787c6f3bd419cff3c3fbb6f9c7, type: 2}
   Name: Fly Cap
-  Description: An fairly easy to identify Agaric with its blushing stem and flesh.
+  Description: A fairly easy to identify Agaric with its blushing stem and flesh.
   PickupSound: {fileID: 8300000, guid: f9025189a46c96d4c9dacd94dbbd5894, type: 3}
   DropSound: {fileID: 8300000, guid: b4dd3254086666f468efbf3885605796, type: 3}
   ItemPrefab: {fileID: 5440707293445505367, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
